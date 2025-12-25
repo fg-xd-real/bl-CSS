@@ -3,6 +3,7 @@ body{
 	color: white;
 }
 .purpl{
+	font-family: "Cause";
 	background: linear-gradient(
 		to bottom,
 		rgba(138, 43, 226, 0.4),
