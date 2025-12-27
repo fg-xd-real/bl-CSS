@@ -57,18 +57,29 @@ body{
 .alertp{
 	display: table;
 	font-family: "Cause";
-	color: red;
+	padding: 3px;
+	background-color: rgba(255,0,0,0.4);
+	border-left: rgba(255,0,0,1) 1px solid;
+	border-right: transparent 1px solid;
+	border-bottom: transparent 1px solid;
+	border-top: transparent 1px solid;
+	border-radius: 5px;
+	transition: 0.4s ease;
+}
+.alertp:hover{
+	border: rgba(255,0,0,1) 1px solid;
 }
 .importantp{
 	display: table;
-	font-family: "Cause";
-	background-color: white;
-	color: black;
+	background-color: rgba(255,255,255,0.4);
+	border-left: rgb(255,255,255) 1px solid;
+	padding: 3px;
+	border-radius: 5px;
 	transition: 0.4s ease;
 }
 .importantp:hover{
 	background-color: black;
-	color: white;
+	border-left: rgba(255,255,255,0.5) 1px solid;
 }
 .link{
 	display: table;
