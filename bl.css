@@ -56,6 +56,23 @@ body{
 .shadedp:hover{
 	border: 1px solid rgba(128,128,128,1);
 }
+.clearp	{
+	display: table;
+	font-family: "Cause";
+	color: white;
+	padding: 3px;
+	background-color: rgba(138, 43, 226,0.4);
+	border-left: rgba(138, 43, 226,1) 1px solid;
+	border-right: transparent 1px solid;
+	border-bottom: transparent 1px solid;
+	border-top: transparent 1px solid;
+	border-radius: 5px;
+	transition: 0.4s ease;
+}
+.clearp:hover{
+	border: rgba(138, 43, 226,1) 1px solid;
+	background-color: rgba(138,43,226,0.6);
+}
 .alertp{
 	display: table;
 	font-family: "Cause";
