@@ -1,4 +1,8 @@
 # bl-css Changelog
+## [latest] v0.12.0
+- Cat hate clunky grey scrollbar
+- Scrollbar `Fixed` :D
+- No more grey clunky scrollbar. Better beautiful one!
 ## v0.11.2
 - THE CATS HAVE INVADED (very good)
 - Ok really, I updated the CLI a little bit

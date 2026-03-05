@@ -1,20 +1,13 @@
 # bl CSS
-A *lightweight*, **blueviolet**, ***ultra lightweight*** CSS framework!
+A *hackable*, **blueviolet**, ***ultra lightweight*** CSS framework!
 
 bl-css is supposed to be a CSS framework that is Ultra Lightweight, even while being readable!
-Currently its <6KB (Unminified, With Comments, and Readable)! exactly 5.36KB [from tooltilities.com](https://tooltilities.com/toolset/text-size-calculator)
-# 0.11.1 - Release notes(by Dev)
-A yeah last version was actually 0.11.0, sorry for the error!
-## What's New?
-This is the first *Named* update, the **Link&Button** update!!
-## Classes
-`.link`: Yeah, same thing, but updated to look more modern!
+Currently its <6KB (Unminified, With Comments, and Readable)! exactly 5.83KB [from tooltilities.com](https://tooltilities.com/toolset/text-size-calculator)
+# 0.12.0 - Release notes(by Dev)
+## Cat hate clunky grey scrollbar
+Clunky grey scrollbar is **Gone**, **Poof!**
 
-`.linkbtn`: DELETED! switch to .btn or .btn2
-
-`.btn`: A more themed alternative to .linkbtn
-
-`.btn2`: secondary button, based on .btn
+Now there is a better scrollbar. **a smooth purple scrollbar :P!** Invisible background means any background in the scrollbar! **:D**
 
 ## [Preview](https://fg-xd.github.io/bl-CSS)
 # How to Change Accent Color?
