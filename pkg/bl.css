@@ -7,14 +7,19 @@
 */
 @import url(https://fonts.googleapis.com/css2?family=Lilita+One&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Cause:wght@700&display=swap);
+@import url(https://esm.sh/@fontsource/maple-mono@5.2.6/600.css);
 @layer low{
 :root{
 	--_: rgb(138, 43, 226);
 	--_4: rgba(138, 43, 226, 0.4);
 	--_6: rgba(138, 43, 226, 0.6);
+	--h: "Lilita One"; /* headings font */
+	--p: "Cause"; /* Para font */
+	--m: "Maple Mono"
+	/* Credit to this guy: u/Southern-Station-629 for the idea, he's on reddit btw, here: https://www.reddit.com/user/Southern-Station-629/ */
 }
 /* Cat hate clunky Scrollbar */
-/* So here's a beautiful bl-css scrollbar!! (new) */
+/* So here's a beautiful bl-css scrollbar!!*/
 ::-webkit-scrollbar{
 	width: 10px;
 }
@@ -41,7 +46,7 @@ body{
 	color: white;
 }
 .purpl{
-	font-family: "Cause";
+	font-family: var(--p);
 	background: linear-gradient(
         to bottom,
         var(--_4),
@@ -52,7 +57,7 @@ body{
 	color: transparent;
 }
 .h1{
-	font-family: "Lilita One";
+	font-family: var(--h);
 	display: table;
 	padding: 10px; /* No more 2rem */
 	border-bottom: 0.5px solid;
@@ -68,11 +73,11 @@ body{
 }
 .normalp{
 	display: table;
-	font-family: "Cause";
+	font-family: var(--p);
 }
 .shadedp{
 	display: table;
-	font-family: "Cause";
+	font-family: var(--p);
 	padding: 3px;
 	background-color: rgba(128,128,128,0.4);
 	border-left: rgba(128,128,128,1) 1px solid;
@@ -87,7 +92,7 @@ body{
 }
 .clearp	{
 	display: table;
-	font-family: "Cause";
+	font-family: var(--p);
 	color: white;
 	padding: 3px;
 	background-color: var(--_4);
@@ -104,7 +109,7 @@ body{
 }
 .alertp{
 	display: table;
-	font-family: "Cause";
+	font-family: var(--p);
 	padding: 3px;
 	background-color: rgba(255,0,0,0.4);
 	border-left: rgba(255,0,0,1) 1px solid;
@@ -119,7 +124,7 @@ body{
 }
 .importantp{
 	display: table;
-	font-family: "Cause";
+	font-family: var(--p);
 	background-color: rgba(255,255,255,0.4);
 	border-left: rgb(255,255,255) 1px solid;
 	padding: 3px;
@@ -130,9 +135,14 @@ body{
 	background-color: black;
 	border-left: rgba(255,255,255,0.5) 1px solid;
 }
+.monop{
+	font-family: var(--m);
+	background-color: transparent;
+	display: table;
+}
 .link{
 	display: table;
-	font-family: "Cause";
+	font-family: var(--p);
 	text-decoration: none;
 	color: var(--_);
 	transition: 0.1s ease;
@@ -145,7 +155,7 @@ body{
 }
 .btn{
 	display: table;
-	font-family: "Cause";
+	font-family: var(--p);
 	border-radius: 7px;
 	border: 2px solid var(--_);
 	background-color: var(--_);
@@ -166,7 +176,7 @@ body{
 }
 .btn2{
 	display: table;
-	font-family: "Cause";
+	font-family: var(--p);
 	border-radius: 7px;
 	border: 2px solid var(--_);
 	background-color: transparent;
@@ -198,6 +208,7 @@ body{
 	transform: translateY(-3px);
 	box-shadow: 0 0 10px var(--_);
 }
+/* Bonus: I use Maple Mono: https://font.subf.dev/en/ :D with cv01 cv66 and calt*/
 .card-row{
 	display: flex;
 	flex-direction: row;
@@ -225,7 +236,7 @@ body{
 .in{
 	display: table;
 	color: white;
-	font-family: "Cause";
+	font-family: var(--p);
 	padding: 5px;
 	background-color: black;
 	border: rgba(128,128,128,0.6) 1px solid;
@@ -241,10 +252,10 @@ body{
 }
 .in::placeholder{
 	color: rgb(128,128,128);
-	font-family: "Cause";
+	font-family: var(--p);
 }
 .label{
-	font-family: "Cause";
+	font-family: var(--p);
 	padding: 4px 0;
 	color: white;
 	transition: 0.4s ease;
@@ -263,6 +274,7 @@ body{
 }
 .navbar{
 	height: auto;
+	backdrop-filter: blur(7px);
 	min-height: fit-content;
 	display: grid;
 	padding: 0 5px;

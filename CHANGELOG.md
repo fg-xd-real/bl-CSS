@@ -1,5 +1,9 @@
 # bl-css Changelog
-## [latest] v0.12.0
+## v0.13.0
+- Finally Mono! && Fonts Custom
+- Added variables `--h`, `--p` and `--m` to customize fonts
+- Added `.monop` class
+## v0.12.0
 - Cat hate clunky grey scrollbar
 - Scrollbar `Fixed` :D
 - No more grey clunky scrollbar. Better beautiful one!

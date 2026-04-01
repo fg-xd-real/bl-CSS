@@ -2,21 +2,22 @@
 A *hackable*, **blueviolet**, ***ultra lightweight*** CSS framework!
 
 bl-css is supposed to be a CSS framework that is Ultra Lightweight, even while being readable!
-Currently its <6KB (Unminified, With Comments, and Readable)! exactly 5.83KB [from tooltilities.com](https://tooltilities.com/toolset/text-size-calculator)
-# 0.12.0 - Release notes(by Dev)
-## Cat hate clunky grey scrollbar
-Clunky grey scrollbar is **Gone**, **Poof!**
-
-Now there is a better scrollbar. **a smooth purple scrollbar :P!** Invisible background means any background in the scrollbar! **:D**
-
+Currently its <6KB (Unminified, With Comments, and Readable)! exactly 6.3KB [from mothereff.in](https://mothereff.in/byte-counter)
+# 0.13.0 - Release notes(by Dev)
+## Finally Mono! && Fonts Custom
+Now we can finally type in Monospace using the `.monop` class!! :D
+And a breaking change of Fonts can be changed!!!!!
 ## [Preview](https://fg-xd.github.io/bl-CSS)
-# How to Change Accent Color?
-To change from the **original** blueviolet theme you have to open the main```bl.css``` file and you can change the following:
+# How to Change Accent Color and Fonts?
+To change from the **original** blueviolet theme and fonts you have to open the main```bl.css``` file and you can change the following:
 ```css
 :root{
   --_: rgb(/* Your accent's RGB here */);
   --_4: rgba(/* Your RGB */, 0.4);
   --_6: rgba(/* Your RGB */, 0.6);
+  --h: /* The font you want for headings */;
+  --p: /* The font you want for paras */;
+  --m: /* The font you want for monospace */;
 }
 ```
 # Repo
