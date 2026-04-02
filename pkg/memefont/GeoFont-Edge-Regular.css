@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'GeoFont-Edge-Regular';
+    src: url('GeoFont-Edge-Regular.woff2') format('woff2'),
+         url('GeoFont-Edge-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
