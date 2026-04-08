@@ -155,7 +155,6 @@ body{
 }
 .btn{
 	display: table;
-	color: white;
 	font-family: var(--p);
 	border-radius: 7px;
 	border: 2px solid var(--_);
