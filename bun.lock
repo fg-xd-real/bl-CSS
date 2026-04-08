@@ -1,0 +1,14 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "dependencies": {
+        "bl-css": "^0.13.5",
+      },
+    },
+  },
+  "packages": {
+    "bl-css": ["bl-css@0.13.5", "", { "bin": { "bl-css": "bin/sc.js", "bl": "bin/sc.js" } }, "sha512-mxZ3LUFRLgY12Alxqb0X/x9ip73m0e5ltBG9XQ7SLPxNaPIuoiqZyvbWmkRzS8W1oK6NPrU3Ii0K6IqhcZcCHQ=="],
+  }
+}
