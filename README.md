@@ -3,8 +3,9 @@ A *hackable*, **blueviolet**, ***ultra lightweight*** CSS framework!
 
 bl-css is supposed to be a CSS framework that is Ultra Lightweight, even while being readable!
 Currently its <6KB (Unminified, With Comments, and Readable)! exactly 6.3KB [from mothereff.in](https://mothereff.in/byte-counter)
-# 0.13.5 - Release notes(by Dev)
-## No more april fools lmao
+# 0.14.0 - Release notes(by Dev)
+## Navbar Redesign
+The navbar is now redesigned to be a bar, not a floating pill lol
 ## [Preview](https://fg-xd.github.io/bl-CSS)
 # How to Change Accent Color and Fonts?
 To change from the **original** blueviolet theme and fonts you have to open the main```bl.css``` file and you can change the following:

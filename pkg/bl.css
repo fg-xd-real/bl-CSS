@@ -273,18 +273,12 @@ body{
 	gap: 10px;
 }
 .navbar{
-	height: auto;
-	backdrop-filter: blur(7px);
-	min-height: fit-content;
+	height: 4rem;
+	backdrop-filter: blur(10px);
 	display: grid;
 	padding: 0 5px;
 	grid-template-columns: auto 1fr;
-	top: 15px;
-	right: 15%;
-	left: 15%;
-	border-radius: 9999px;
 	background-color: rgba(0,0,0,0.6);
-	border: 2px solid rgb(50,50,50);
 	position: fixed;
 }
 .navtitle{
@@ -295,7 +289,7 @@ body{
 .navlinks{
 	grid-column: 2;
 	display: flex;
-	gap: 5px;
+	gap: 1rem;
 	justify-content: end;
 	align-items: center;
 	/* add your links to the right */

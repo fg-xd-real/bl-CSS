@@ -1,6 +1,11 @@
 # bl-css Changelog
-## [latest] v0.13.5
+## [Latest] v0.14.0
+- Navbar Redesign
+- The navbar has been redesigned from a floating pill to an actual bar
+## v0.13.5
 - No more april fools
+## v0.13.2-v0.13.5
+- I was trying to fix the April Fools lol
 ## v0.13.1
 - Ehem Ehem...
 - (April Fools, on 2nd April 🤣)

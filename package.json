@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "bl-css": "^0.13.5"
+    "bl-css": "0.14.0"
   }
 }
