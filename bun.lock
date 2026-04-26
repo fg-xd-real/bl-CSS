@@ -4,11 +4,11 @@
   "workspaces": {
     "": {
       "dependencies": {
-        "bl-css": "0.14.0",
+        "bl-css": "0.14.1",
       },
     },
   },
   "packages": {
-    "bl-css": ["bl-css@0.14.0", "", { "bin": { "bl-css": "bin/sc.js", "bl": "bin/sc.js" } }, "sha512-iSi15YRx/n/dT185Y6L3NiJgzV+WWufWP6uVSYuMfl3dTxXS/AqupwhFGJ/tXpvBKVE4TjMEQa8vXgg7BfOeIQ=="],
+    "bl-css": ["bl-css@0.14.1", "", { "bin": { "bl-css": "bin/sc.js", "bl": "bin/sc.js" } }, "sha512-TweNysFeQq8AMoNTyA7yPHXajjBP5qyjAhdKGRYwJVHyv+tmHpTTKCFmTQfgJrqjFX7XEnp3sZC2XyKhaofMpw=="],
   }
 }
