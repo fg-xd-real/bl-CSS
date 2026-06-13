@@ -1,5 +1,10 @@
 # bl-css Changelog
-## [Latest] v0.14.0
+## [Latest] v0.15.0
+- Added Variables `--bg` and `--f` for background and foreground
+- Made `.shadedp` into an actual shaded text, not shade-background-lol-text
+## v0.14.1
+- Navbar fixed (because it was floating like a ghost)
+## v0.14.0
 - Navbar Redesign
 - The navbar has been redesigned from a floating pill to an actual bar
 ## v0.13.5
