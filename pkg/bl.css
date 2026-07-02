@@ -199,7 +199,6 @@
         transform: translateY(-3px);
         box-shadow: 0 0 10px var(--_);
     }
-    /* Bonus: I use Maple Mono: https://font.subf.dev/en/ :D with cv01 cv66 and calt*/
     .card-row {
         display: flex;
         flex-direction: row;
@@ -290,11 +289,36 @@
         /* add your links to the right */
     }
     .h1-hero {
-        font-family: "Lilita One";
+        font-family: var(--h);
         display: table;
         padding: 10px;
         color: transparent;
         -webkit-text-stroke: 1px var(--_);
         text-stroke: 1px var(--_);
     }
+    .tbl {
+        /* I hate this */
+        border-collapse: separate;
+        border-spacing: 0; /* nil */
+        border-radius: 10px;
+        border: var(--_) 2px solid;
+        background-color: var(--bg);
+        /* bro i am so confused tables are confusing to make for me in css */
+        transition: 0.4s ease;
+        margin: 10px;
+        padding: 5px;
+    }
+    .th {
+        font-family: var(--h);
+        padding: 5px 8px;
+        border: var(--_) solid 1px;
+        background-color: var(--bg);
+    }
+    .td {
+        font-family: var(--p);
+        padding: 5px 8px;
+        border: var(--_) solid 1px;
+        background-color: var(--bg);
+    }
+    /* just dont use it its really ugly */
 }
