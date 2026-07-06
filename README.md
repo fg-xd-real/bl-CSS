@@ -2,13 +2,13 @@
 A *hackable*, **blueviolet**, ***ultra lightweight*** CSS framework!
 
 bl-css is supposed to be a CSS framework that is Ultra Lightweight, even while being readable!
-Currently its <8KB (Unminified, With Comments, and Readable)! exactly 7.76KB [from mothereff.in](https://mothereff.in/byte-counter)
-# 0.14.1 - Release notes(by Dev)
-## Variables Update
-Its been tooooo long since I have made an update, well now I have finally made (*there were exams*)
-
-Added new variables `--bg` for background color and `--f` for font color and also made shadedp as a shaded text (loll)
-And also changed Maple Mono to Recursive Mono Casual :P
+Currently its <9KB (Unminified, With Comments, and Readable)! exactly 8.36KB [from mothereff.in](https://mothereff.in/byte-counter)
+# v0.16.0 - Ugly Tables
+I do NOT know how to style tables at all (found out :D) so please just don't use the table classes, write your own i dont know T-T
+`.tbl` - the main class
+`.th` - table heading
+`.td` - table data
+how do people even make good tables?!
 ## [Preview](https://fg-xd.github.io/bl-CSS)
 # How to Change Accent Color and Fonts?
 To change from the **original** blueviolet theme and fonts you have to open the main```bl.css``` file and you can change the following:
@@ -55,6 +55,10 @@ This is not recommended as I most of the time forget to make a release on github
 
 Go to the official [GitHub repo releases](https://github.com/fg-xd/bl-CSS/releases) and download a certain version you want.
 
+# Not AI Generated
+This is all my dumbness into a css framework :D
+
+# and:
 **Pleaseee** Star my github repo :P [here](https://github.com/fg-xd/bl-CSS)
 
 Have a Nice day Using it **:D**
