@@ -78,7 +78,7 @@
         font-family: var(--p);
         transition: 0.4s ease;
     }
-    .shadedp {
+    .shadedp:hover {
         color: color-mix(in oklch, var(--f) 70%, transparent);
     }
     .clearp {
